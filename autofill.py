@@ -13,8 +13,8 @@ caps = DesiredCapabilities.CHROME
 caps['goog:loggingPrefs'] = {'performance': 'ALL'}
 
  
-account = 'jann7790'
-password = 'a60596059A@'
+account = 'account'
+password = 'password'
 
 def crackCaptcha(path):
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
