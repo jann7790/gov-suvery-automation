@@ -7,7 +7,7 @@ df = pd.read_csv('qa.csv')
 try:
     for i in range(100000):
         try:
-            r = requests.get('https://isafeevent.moe.edu.tw/api/questions/C', headers={'UserToken': 'VXfj4HyG2UiF4vD8x6uvQ7kirDWzeD8n'})
+            r = requests.get('https://isafeevent.moe.edu.tw/api/questions/C', headers={'UserToken': 'd896sf7as89d6f74896'})
         except requests.exceptions.RequestException as e:
             print(e)
         print(r)
